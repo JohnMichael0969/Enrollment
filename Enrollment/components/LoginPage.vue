@@ -2,10 +2,11 @@
 <div class="container-fluid">
     <div class="row no-gutter">
         <!-- The image half -->
-        <div class="col-md-6 d-none d-md-flex bg-image"></div>
+        <div class="col-md-8 d-none d-md-flex bg-image"></div>
         <!-- The content half -->
-        <div class="col-md-6 bg-light">
+        <div class="col-md-3 bg-light">
           <div class="login d-flex align-items-center py-5">
+           
             
 
     <b-form @submit="onSubmit">
@@ -35,12 +36,9 @@
           required>
         </b-form-input>
       </b-form-group>
-<router-link
-to="/home">
-<b-button type="submit" class="mr-4" variant="primary" >Submit</b-button>
-</router-link>
-      
-      
+      <NuxtLink to="/Home">
+      <b-button type="submit" class="mr-4" variant="primary" >Login</b-button>
+      </NuxtLink>
        </b-form>
    
           </div>
@@ -61,7 +59,7 @@ to="/home">
          
         }
       }
-    }
+     }
   }
 
 </script>
