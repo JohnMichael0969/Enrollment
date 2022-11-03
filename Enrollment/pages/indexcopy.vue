@@ -1,9 +1,9 @@
 <template>
-    <LoginPage />
+    <LandingPage   />
 </template>
 
 <script>
 export default {
-  name: 'HomePage', 
+  name: 'IndexPage',
 }
 </script>

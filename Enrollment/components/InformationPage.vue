@@ -6,7 +6,7 @@
       height: 100vh;">
   <b-navbar type="dark" variant="dark">
     <b-navbar-nav>
-      <b-nav-item href="home">Home</b-nav-item>
+      <b-nav-item href="indexcopy">Home</b-nav-item>
       <b-nav-item href="#">About</b-nav-item>
 
     

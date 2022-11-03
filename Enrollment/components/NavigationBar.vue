@@ -1,12 +1,9 @@
 <template>
  <div
-    class="bg-image"
-    style="
-      background-image: url('https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg?cs=srgb&dl=pexels-pixabay-269077.jpg&fm=jpg&_gl=1*2ohnil*_ga*MTcyMTQ2NDQ1MS4xNjYzNzM5ODAw*_ga_8JE65Q40S6*MTY2NjI2ODQ0NS4yLjEuMTY2NjI2ODQ2MC4wLjAuMA..');
-      height: 100vh;">
+    class="nav">
   <b-navbar type="dark" variant="dark">
     <b-navbar-nav>
-      <b-nav-item href="#">Home</b-nav-item>
+      <b-nav-item href="home">Home</b-nav-item>
       <b-nav-item href="about">About</b-nav-item>
 
     
